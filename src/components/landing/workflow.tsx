@@ -17,12 +17,15 @@ export default function Workflow() {
           </p>
         </div>
 
+        {/* Workflow Grid */}
         <div className="grid grid-cols-3 gap-8 relative">
+          {/* Connecting line */}
           <div
             className="absolute top-6 left-0 w-full h-px -z-10"
             style={{ backgroundColor: "var(--border-medium)" }}
           ></div>
 
+          {/* Step 1 */}
           <div
             className="relative z-10 pt-0"
             style={{ backgroundColor: "var(--bg-base)" }}
@@ -31,7 +34,8 @@ export default function Workflow() {
               className="w-12 h-12 rounded-full flex items-center justify-center font-mono text-lg mb-6"
               style={{
                 backgroundColor: "var(--bg-panel)",
-                border: "1px solid var(--border-strong)",
+                borderColor: "var(--border-strong)",
+                border: "1px solid",
                 color: "var(--text-main)",
               }}
             >
@@ -43,6 +47,7 @@ export default function Workflow() {
             </p>
           </div>
 
+          {/* Step 2 */}
           <div
             className="relative z-10 pt-0"
             style={{ backgroundColor: "var(--bg-base)" }}
@@ -51,7 +56,8 @@ export default function Workflow() {
               className="w-12 h-12 rounded-full flex items-center justify-center font-mono text-lg mb-6"
               style={{
                 backgroundColor: "var(--bg-panel)",
-                border: "1px solid var(--border-strong)",
+                borderColor: "var(--border-strong)",
+                border: "1px solid",
                 color: "var(--text-main)",
               }}
             >
@@ -63,6 +69,7 @@ export default function Workflow() {
             </p>
           </div>
 
+          {/* Step 3 */}
           <div
             className="relative z-10 pt-0"
             style={{ backgroundColor: "var(--bg-base)" }}
@@ -71,7 +78,8 @@ export default function Workflow() {
               className="w-12 h-12 rounded-full flex items-center justify-center font-mono text-lg mb-6"
               style={{
                 backgroundColor: "var(--bg-panel)",
-                border: "1px solid var(--border-strong)",
+                borderColor: "var(--border-strong)",
+                border: "1px solid",
                 color: "var(--text-main)",
               }}
             >
@@ -85,6 +93,7 @@ export default function Workflow() {
         </div>
       </div>
 
+      {/* Vertical line */}
       <div
         className="absolute top-0 left-1/2 w-px h-full -translate-x-1/2 -z-10"
         style={{ backgroundColor: "var(--border-subtle)" }}
